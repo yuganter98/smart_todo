@@ -4,3 +4,5 @@ backend
 2-In this you have to install requirment.txt file 
 3-Now you have to replace your cred for supabase database in smart-todo/setting.py
 4-you have to put your api key in api_utils.py
+5- To run first run this command - python manage.py makemigrations (to migrate table in database)
+6- To start run this command python manage.py runserver
