@@ -5,7 +5,7 @@ class Category(models.Model):
     usage_count = models.IntegerField(default=0)
 
     def __str__(self):
-        return self.name  # ✅ Optional but helpful
+        return self.name  
 
 class ContextEntry(models.Model):
     SOURCE_CHOICES = [('email', 'Email'), ('whatsapp', 'WhatsApp'), ('note', 'Note')]
