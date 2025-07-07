@@ -32,8 +32,8 @@ class TaskSerializer(serializers.ModelSerializer):
             'description',
             'priority_score',
             'deadline',
-            'category',      # Read: nested object
-            'category_id',   # Write: just ID
+            'category',      
+            'category_id',  
             'created_at',
             'updated_at'
         ]
